@@ -1,0 +1,20 @@
+Talk: Reproducible Paper Writing.
+
+DGPS, Sept. 2016, 8-10 min.!!
+
+Storyline:
+- What is reproducible paper writing?
+	- write paper as plain text (text file)
+	- tie data analytic code to right place in paper
+	
+- Why should I write my paper reproducicibly?
+	- for community: data computation code easier to results as stated in you paper
+	- for yourself: if something (data) changes, your paper will be update itself. No copy-pasting etc.
+	
+- How to do it?
+	- process: [plain text and R code] + style sheet --> pdf/html/doc
+	- use RStudio (under the hood: knitr+markdown+pandoc)
+	- use style sheets (eg., my thesis stylesheet or papaja for APA papers)
+	
+- I am still not convinced
+	- See live use case here
