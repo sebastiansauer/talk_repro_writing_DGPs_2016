@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: An Example R Markdown Document\nsubtitle: (A Subtitle Would Go Here if This Were a Class)\nauthor: Steven V. Miller\ninstitute: Department of Political Science\ntitlegraphic: /Dropbox/teaching/clemson-academic.png\nfontsize: 10pt\noutput:\n beamer_presentation:\n    template: ~/Dropbox/miscelanea/svm-r-markdown-templates/svm-latex-beamer.tex\n    keep_tex: true\n# toc: true\n slide_level: 3\n---\n\n# Pop Songs and Political Science\n## Morning Train\n\n### Sheena Easton and Game Theory\n\nSheena Easton describes the following scenario for her baby:\n\n1. Takes the morning train\n2. Works from nine 'til five\n3. Takes another train home again\n4. Finds Sheena Easton waiting for him\n\nSheena Easton and her baby are playing a **zero-sum (total conflict) game**.\n\n- Akin to Holmes-Moriarty game (see: von Neumann and Morgenstern)\n- Solution: **mixed strategy**\n\n\n## Never Gonna Give You Up\n\n### Rick Astley's Re-election Platform\n\nRick Astley's campaign promises:\n\n- Never gonna give you up.\n- Never gonna let you down.\n- Never gonna run around and desert you.\n- Never gonna make you cry.\n- Never gonna say goodbye.\n- Never gonna tell a lie and hurt you.\n\nWhereas these pledges conform to the preferences of the **median voter**, we expect Congressman Astley to secure re-election.\n\n## Caribbean Queen\n### Caribbean Queen and Operation Urgent Fury\n\nIn 1984, Billy Ocean released ``Caribbean Queen''.\n\n- Emphasized sharing the same dream\n- Hearts beating as one\n\n``Caribbean Queen'' is about the poor execution of Operation Urgent Fury.\n\n- Echoed JCS chairman David Jones' frustrations with military establishment.\n\nBilly Ocean is advancing calls for what became the Goldwater-Nichols Act.\n\n- Wanted to take advantage of **economies of scale**, resolve **coordination problems** in U.S. military.\n\n## Good Day\n### The Good Day Hypothesis\n\nWe know the following about Ice Cube's day.\n\n1. The Lakers beat the Supersonics.\n2. No helicopter looked for a murder.\n3. Consumed Fatburger at 2 a.m.\n4. Goodyear blimp: \"Ice Cube's a pimp.\"\n\nThis leads to two different hypotheses:\n\n- $H_0$: Ice Cube's day is statistically indistinguishable from a typical day.\n- $H_1$: Ice Cube is having a good (i.e. greater than average) day.\n\nThese hypotheses are tested using archival data of Ice Cube's life.\n",
+    "created" : 1471470554667.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3881434765",
+    "id" : "63B5D22D",
+    "lastKnownWriteTime" : 1471470488,
+    "last_content_update" : 1471470488,
+    "path" : "~/Documents/git/svm-r-markdown-templates/svm-rmarkdown-beamer-example.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

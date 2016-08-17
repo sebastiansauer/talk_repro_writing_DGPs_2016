@@ -1,0 +1,120 @@
+---
+title: 'Reproducible paper writing'
+subtitle: "Some practical recommendations"
+author: 
+  - Sebastian Sauer
+  - Christoph Kurz
+date: September 22, 2016
+institute: FOM, Helmholz Zentrum
+linkcolor: red
+urlcolor: red
+theme: Goettingen
+output: 
+  beamer_presentation:
+    fig_caption: no
+    includes:
+      in_header: stylesheets/page_nr.tex
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(dev="png", 
+                      dev.args=list(type="cairo"),
+                      dpi=96, 
+                      echo = FALSE)
+```
+
+
+
+# Is science broken?
+
+
+## Echo in academia press
+
+![](figs/repro_crisis_media.001.jpeg)
+
+## Echo in non-academia press
+
+![](figs/repro_crisis_media.002.jpeg)
+
+
+# What is reprodible writing?
+
+## Write plain text with computer code included
+
+![](figs/rmd_sample.png){ width=50% }![](figs/rmd_to_pdf.png){ width=50% }
+
+
+# Why should I write my paper in a reproducible manner?
+
+## Re-do analysis with no pain
+
+![](figs/Mail-closed.png){ width=10% } 
+
+
+> Dude,  
+> I sent you the wrong data. Find attached new dataset. Re-do all analyses.
+> Did I mention we submit tommorrow?   
+> Regards,  
+  
+> C. Kirk
+
+## Match R code to results in paper easily
+
+
+
+```{r fig.align = "center", out.width = "10cm"}
+knitr::include_graphics("figs/many_pages.png")
+```
+
+
+Paper with ~1,000 lines of wild R code. 
+
+
+In results section:   
+"After some wild computation, we found accuracy to be **78%**..."
+
+
+# How to do it?
+
+## Process of repro paper writing
+
+
+```{r fig.align = "center", out.width = "10cm"}
+knitr::include_graphics("figs/process.png")
+```
+
+
+# Style sheets
+
+## Style sheet for thesis/assignment
+
+![](figs/template_thesis.png){ width=50% } ![](figs/thesis_titlepage.png)
+
+
+## Style sheet for APA papers
+
+[Install PAPAJA](https://github.com/crsh/papaja) and open new APA template in RStudio
+![](figs/papaja_example.png){ width=70% }
+
+
+## Acknowledgments/ more infos
+
+- Yihui Xie for `knitr` [more](http://kbroman.org/knitr_knutshell/)
+- John Gruber & Aaron Swartz for `markdown` [more](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- John MacFarlane for `pandoc` [more](http://pandoc.org)
+- RStudio team for `RStudio` [more](https://www.rstudio.com/home/)
+- R community for `R` [more] (https://cran.r-project.org)
+- Frederik Aust for `papaja` [more] (https://github.com/crsh/papaja)
+- Get my thesis template [here](https://github.com/sebastiansauer/Markdown_paper_template)
+- Github team for `github` [more](https://github.com)
+- Steven V. Miller for [this beamer template](https://github.com/svmiller/svm-r-markdown-templates)
+- The unkown God
+
+**That's all free stuff!**
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: 'Reproducible paper writing'\nsubtitle: \"Some practical recommendations\"\nauthor: \n  - Sebastian Sauer\n  - Christoph Kurz\ndate: September 22, 2016\ninstitute: FOM, Helmholz Zentrum\nlinkcolor: red\nurlcolor: red\ntheme: Goettingen\noutput: \n  beamer_presentation:\n    fig_caption: no\n    includes:\n      in_header: stylesheets/page_nr.tex\n---\n\n```{r, include = FALSE}\nknitr::opts_chunk$set(dev=\"png\", \n                      dev.args=list(type=\"cairo\"),\n                      dpi=96, \n                      echo = FALSE)\n```\n\n\n\n# Is science broken?\n\n\n## Echo in academia press\n\n![](figs/repro_crisis_media.001.jpeg)\n\n## Echo in non-academia press\n\n![](figs/repro_crisis_media.002.jpeg)\n\n\n# What is reprodible writing?\n\n## Write plain text with computer code included\n\n![](figs/rmd_sample.png){ width=50% }![](figs/rmd_to_pdf.png){ width=50% }\n\n\n# Why should I write my paper in a reproducible manner?\n\n## Re-do analysis with no pain\n\n![](figs/Mail-closed.png){ width=10% } \n\n\n> Dude,  \n> I sent you the wrong data. Find attached new dataset. Re-do all analyses.\n> Did I mention we submit tommorrow?   \n> Regards,  \n  \n> C. Kirk\n\n## Match R code to results in paper easily\n\n\n\n```{r fig.align = \"center\", out.width = \"10cm\"}\nknitr::include_graphics(\"figs/many_pages.png\")\n```\n\n\nPaper with ~1,000 lines of wild R code. \n\n\nIn results section:   \n\"After some wild computation, we found accuracy to be **78%**...\"\n\n\n# How to do it?\n\n## Process of repro paper writing\n\n\n```{r fig.align = \"center\", out.width = \"10cm\"}\nknitr::include_graphics(\"figs/process.png\")\n```\n\n\n# Style sheets\n\n## Style sheet for thesis/assignment\n\n![](figs/template_thesis.png){ width=50% } ![](figs/thesis_titlepage.png)\n\n\n## Style sheet for APA papers\n\n[Install PAPAJA](https://github.com/crsh/papaja) and open new APA template in RStudio\n![](figs/papaja_example.png){ width=70% }\n\n\n## Acknowledgments/ more infos\n\n- Yihui Xie for `knitr` [more](http://kbroman.org/knitr_knutshell/)\n- John Gruber & Aaron Swartz for `markdown` [more](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)\n- John MacFarlane for `pandoc` [more](http://pandoc.org)\n- RStudio team for `RStudio` [more](https://www.rstudio.com/home/)\n- R community for `R` [more] (https://cran.r-project.org)\n- Frederik Aust for `papaja` [more] (https://github.com/crsh/papaja)\n- Get my thesis template [here](https://github.com/sebastiansauer/Markdown_paper_template)\n- Github team for `github` [more](https://github.com)\n- Steven V. Miller for [this beamer template](https://github.com/svmiller/svm-r-markdown-templates)\n- The unkown God\n\n**That's all free stuff!**\n\n\n\n\n\n\n\n",
+    "created" : 1471425511349.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "604071274",
+    "id" : "98A00FBC",
+    "lastKnownWriteTime" : 1471474168,
+    "last_content_update" : 1471474168427,
+    "path" : "~/Documents/OneDrive/Vortraege/2016/DGPs/Repro_Writing/Repro_Writing.Rmd",
+    "project_path" : "Repro_Writing.Rmd",
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
