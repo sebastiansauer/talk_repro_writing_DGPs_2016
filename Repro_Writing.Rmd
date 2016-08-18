@@ -1,10 +1,11 @@
 ---
 title: 'Reproducible paper writing'
-subtitle: "Some practical recommendations"
+subtitle: "Some practical recommendations^[Slides on Github, <http://bit.ly/29N7YH0>]"
 author: 
   - Sebastian Sauer (FOM)
 date: September 21, 2016
-institute: joint work with Christoph Kurz (Helmholtz Zentrum)
+institute: 
+  - joint work with Christoph Kurz (Helmholtz Zentrum)
 linkcolor: red
 urlcolor: red
 theme: Goettingen
