@@ -2,10 +2,10 @@
 title: 'Reproducible paper writing'
 subtitle: "Some practical recommendations^[Slides on Github, <http://bit.ly/29N7YH0>]"
 author: 
-  - Sebastian Sauer (FOM)
-date: September 21, 2016
-institute: 
-  - joint work with Christoph Kurz (Helmholtz Zentrum)
+  - Sebastian Sauer
+  - Christoph Kurz
+date: September 22, 2016
+institute: FOM, Helmholtz Zentrum München
 linkcolor: red
 urlcolor: red
 theme: Goettingen
@@ -53,7 +53,7 @@ knitr::opts_chunk$set(dev="png",
 
 
 > Dude,  
-> I sent you the wrong data. Find attached new dataset. Re-do all analyses.
+> I sent you the wrong data. Find attached new dataset. You must re-do all analyses.
 > Did I mention we submit tommorrow?   
 > Regards,  
   
@@ -102,16 +102,15 @@ knitr::include_graphics("figs/process.png")
 
 ## Acknowledgments/ more infos
 
-- Yihui Xie for `knitr` [more](http://kbroman.org/knitr_knutshell/)
-- John Gruber & Aaron Swartz for `markdown` [more](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- John MacFarlane for `pandoc` [more](http://pandoc.org)
-- RStudio team for `RStudio` [more](https://www.rstudio.com/home/)
-- R community for `R` [more] (https://cran.r-project.org)
-- Frederik Aust for `papaja` [more](https://github.com/crsh/papaja)
-- Get my thesis template [here](https://github.com/sebastiansauer/Markdown_paper_template)
-- Github team for `github` [more](https://github.com)
-- Steven V. Miller for [this beamer template](https://github.com/svmiller/svm-r-markdown-templates)
-- The unknown God
+- Yihui Xie for `knitr` - [more](http://kbroman.org/knitr_knutshell/)
+- John Gruber & Aaron Swartz for `markdown` -  [more](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- John MacFarlane for `pandoc` - [more](http://pandoc.org)
+- RStudio team for `RStudio` - [more](https://www.rstudio.com/home/)
+- R community for `R` - [more](https://cran.r-project.org)
+- Frederik Aust for `papaja` - [more](https://github.com/crsh/papaja)
+- Get my thesis template -  [here](https://github.com/sebastiansauer/Markdown_paper_template)
+- Github team for `github` - [more](https://github.com)
+- Steven V. Miller for - [this beamer template](https://github.com/svmiller/svm-r-markdown-templates)
 
 
 
