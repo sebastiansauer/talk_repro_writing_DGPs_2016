@@ -1,21 +1,21 @@
 ---
-title: 'Reproducible paper writing'
+title: "Reproducible paper writing"
 subtitle: "Some practical recommendations^[Slides on Github, <http://bit.ly/29N7YH0>]"
 author: 
-  - Sebastian Sauer
-  - Christoph Kurz
-date: September 22, 2016
-institute: FOM, Helmholtz Zentrum München
-linkcolor: red
-urlcolor: red
+  - Sebastian Sauer (FOM)
+  - Christoph Kurz (Helmholtz)
+date: DGPs conference 2016 in Leipzig
+institute: FOM, Helmholtz Zentrum Muenchen
 theme: Goettingen
 output: 
   beamer_presentation:
     fig_caption: no
     slide_level: 2
-    includes:
-      in_header: stylesheets/page_nr.tex
+    template: stylesheets/beamer_template.tex
+    
 ---
+
+
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(dev="png", 
@@ -98,30 +98,30 @@ knitr::include_graphics("figs/process.png")
 ![](figs/papaja_example.png){ width=70% }
 
 
-# Acknowledgments
-
 ## Acknowledgments/ more infos
 
-- Yihui Xie for `knitr` - [more](http://kbroman.org/knitr_knutshell/)
-- John Gruber & Aaron Swartz for `markdown` -  [more](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- John MacFarlane for `pandoc` - [more](http://pandoc.org)
-- RStudio team for `RStudio` - [more](https://www.rstudio.com/home/)
-- R community for `R` - [more](https://cran.r-project.org)
-- Frederik Aust for `papaja` - [more](https://github.com/crsh/papaja)
-- Get my thesis template -  [here](https://github.com/sebastiansauer/Markdown_paper_template)
-- Github team for `github` - [more](https://github.com)
-- Steven V. Miller for - [this beamer template](https://github.com/svmiller/svm-r-markdown-templates)
+- Yihui Xie for`knitr` - [http://kbroman.org/knitr_knutshell/](http://kbroman.org/knitr_knutshell/)
+- John Gruber & Aaron Swartz for `markdown` -  [https://de.wikipedia.org/wiki/Markdown](https://de.wikipedia.org/wiki/Markdown)
+- John MacFarlane for `pandoc` - [http://pandoc.org](http://pandoc.org)
+- RStudio team for `RStudio` - [https://www.rstudio.com/home/](https://www.rstudio.com/home/)
+- R community for `R` - [ttps://cran.r-project.org](https://cran.r-project.org)
+- Frederik Aust for `papaja` - [https://github.com/crsh/papaja](https://github.com/crsh/papaja)
+- Get my thesis template -  [https://github.com/sebastiansauer/Markdown_paper_template](https://github.com/sebastiansauer/Markdown_paper_template)
+- Github team for `github` - [https://github.com](https://github.com)
+- Steven V. Miller for beamer template- [https://github.com/svmiller/svm-r-markdown-templates](https://github.com/svmiller/svm-r-markdown-templates)
 
 
 
-# That's it
 
-## Thank you
 
-- **Get slides etc. of this talk here**: <https://github.com/sebastiansauer/talk_repro_writing_DGPs_2016> 
+## Thank you. That's it.
 
-- Contact: [sebastian.sauer@fom.de](sebastian.sauer@fom.de)
+- **Get this talk here**: 
+<https://github.com/sebastiansauer/talk_repro_writing_DGPs_2016> 
 
+- Contact:    
+  Mail: [sebastian.sauer@fom.de](sebastian.sauer@fom.de)  
+  Twitter: [sauer_sebastian](https://twitter.com/sauer_sebastian)  
 
 
 
